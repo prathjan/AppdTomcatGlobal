@@ -4,7 +4,7 @@
 #
 
 
-appname = "Supercar-Trader"
+appname = "SuperTeaStore"
 #Add your own: accesskey = "XXXXX"
 zerover="21.6.0.232"
 infraver="21.5.0.1784"
@@ -16,6 +16,13 @@ url="https://devnet.saas.appdynamics.com"
 #Add your own: clientsecret="ZZZZZ"
 
 appwars = [
+{
+        svcname = "RegistryService"
+        appwar = "tools.descartes.teastore.registry.war"
+        appcontext = "tools.descartes.teastore.registry"
+        svcport = "8086"
+        svrport = "8011"
+},
 {
         svcname = "AuthService"
         appwar = "tools.descartes.teastore.auth.war"
