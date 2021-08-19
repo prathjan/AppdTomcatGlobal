@@ -44,11 +44,6 @@ variable "appwars" {
   description = "App details"
 }
 
-// The zero agent version
-variable "globalwsname" {
-  type = string
-}
-
 // The vsphere ip address
 variable "vsphere_server" {
   type = string
