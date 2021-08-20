@@ -29,6 +29,7 @@ output "apps" {
 }
 output "mysql_pass" {
   value = "${var.mysql_pass}"
+  sensitive = true
 }
 
 
