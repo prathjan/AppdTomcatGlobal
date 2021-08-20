@@ -45,3 +45,7 @@ variable "appwars" {
 }
 
 
+// The root password for mysql server
+variable "mysql_pass" {
+  type = string
+}
