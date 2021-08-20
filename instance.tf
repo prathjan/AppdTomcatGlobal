@@ -27,7 +27,7 @@ output "install" {
 output "apps" {
   value = "${var.appwars}"
 }
-output "apps" {
+output "mysql_pass" {
   value = "${var.mysql_pass}"
 }
 
