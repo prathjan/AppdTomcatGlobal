@@ -22,7 +22,7 @@ temp="${temp#\"}"
 download="$(curl -s --location --request GET "${URL}/zero/v1beta/install/downloadCommand?javaVersion=${JVER}&machineVersion=latest&infraVersion=latest&zeroVersion=latest&multiline=false" \
 --header "Authorization: Bearer ${temp}" --data-raw '')"
 
-install="$(curl -s --location --request GET "${URL}/zero/v1beta/install/installCommand?sudo=true&multiline=false&application=${APP_NAME}&accessKey=${ACC_KEY}&serviceUrl=${URL}" \
+install="$(curl -s --location --request GET "${URL}/zero/v1beta/install/installCommand?sudo=true&multiline=false&application=${APP_NAME}&accessKey=fillmein&serviceUrl=${URL}" \
 --header "Authorization: Bearer ${temp}" --data-raw '')"
 
 
