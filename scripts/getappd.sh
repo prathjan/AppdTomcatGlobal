@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY
 
 function parse_input() {
   # jq reads from stdin so we don't have to set up any inputs, but let's validate the outputs
