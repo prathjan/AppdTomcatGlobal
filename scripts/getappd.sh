@@ -1,6 +1,5 @@
 #!/bin/bash
 
-export APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY
 
 function parse_input() {
   # jq reads from stdin so we don't have to set up any inputs, but let's validate the outputs
@@ -23,7 +22,7 @@ temp="${temp#\"}"
 download="$(curl -s --location --request GET "${URL}/zero/v1beta/install/downloadCommand?javaVersion=${JVER}&machineVersion=latest&infraVersion=latest&zeroVersion=latest&multiline=false" \
 --header "Authorization: Bearer ${temp}" --data-raw '')"
 
-install="$(curl -s --location --request GET "${URL}/zero/v1beta/install/installCommand?sudo=true&multiline=false&application=${APP_NAME}&accessKey=${APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY}&serviceUrl=${URL}" \
+install="$(curl -s --location --request GET "${URL}/zero/v1beta/install/installCommand?sudo=true&multiline=false&application=${APP_NAME}&accessKey=${ACC_KEY}&serviceUrl=${URL}" \
 --header "Authorization: Bearer ${temp}" --data-raw '')"
 
 
