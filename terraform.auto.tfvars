@@ -45,18 +45,18 @@ appwars = [
         svrport = "8007"
 },
 {
-        svcname = "ImageService"
-        appwar = "tools.descartes.teastore.image.war"
-        appcontext = "tools.descartes.teastore.image"
-        svcport = "8081"
-        svrport = "8006"
-},
-{
         svcname = "WebUIService"
         appwar = "tools.descartes.teastore.webui.war"
         appcontext = "tools.descartes.teastore.webui"
         svcport = "8085"
         svrport = "8010"
+},
+{
+        svcname = "ImageService"
+        appwar = "tools.descartes.teastore.image.war"
+        appcontext = "tools.descartes.teastore.image"
+        svcport = "8081"
+        svrport = "8006"
 }
 
 ]
