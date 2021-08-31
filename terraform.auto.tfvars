@@ -38,18 +38,18 @@ appwars = [
         svrport = "8009"
 },
 {
-        svcname = "ImageService"
-        appwar = "tools.descartes.teastore.image.war"
-        appcontext = "tools.descartes.teastore.image"
-        svcport = "8081"
-        svrport = "8006"
-},
-{
         svcname = "RecommenderService"
         appwar = "tools.descartes.teastore.recommender.war"
         appcontext = "tools.descartes.teastore.recommender"
         svcport = "8082"
         svrport = "8007"
+},
+{
+        svcname = "ImageService"
+        appwar = "tools.descartes.teastore.image.war"
+        appcontext = "tools.descartes.teastore.image"
+        svcport = "8081"
+        svrport = "8006"
 },
 {
         svcname = "WebUIService"
