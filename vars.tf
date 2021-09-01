@@ -50,3 +50,19 @@ variable "mysql_pass" {
   type = string
   sensitive = true
 }
+//License - apm 
+variable "nbrapm" {
+  type = string
+}
+//License - ma 
+variable "nbrma" {
+  type = string
+}
+//License - sim 
+variable "nbrsim" {
+  type = string
+}
+//License - net 
+variable "nbrnet" {
+  type = string
+}

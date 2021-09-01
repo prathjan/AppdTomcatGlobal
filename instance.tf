@@ -32,5 +32,17 @@ output "mysql_pass" {
   sensitive = true
 }
 
+output "nbrapm" {
+  value = "${var.nbrapm}"
+}
+output "nbrma" {
+  value = "${var.nbrma}"
+}
+output "nbrsim" {
+  value = "${var.nbrsim}"
+}
+output "nbrnet" {
+  value = "${var.nbrnet}"
+}
 
 
