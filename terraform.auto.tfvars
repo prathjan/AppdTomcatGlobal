@@ -5,6 +5,7 @@
 
 
 appname = "SuperTeaStore"
+appport = "8085"
 #Add your own: accesskey = "XXXXX"
 zerover="21.6.0.232"
 infraver="21.5.0.1784"

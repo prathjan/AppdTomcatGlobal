@@ -32,6 +32,9 @@ output "mysql_pass" {
   sensitive = true
 }
 
+output "appport" {
+  value = "${var.appport}"
+}
 output "nbrapm" {
   value = "${var.nbrapm}"
 }

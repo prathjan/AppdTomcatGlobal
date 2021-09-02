@@ -66,3 +66,7 @@ variable "nbrsim" {
 variable "nbrnet" {
   type = string
 }
+//app port
+variable "appport" {
+  type = string
+}
